@@ -18,9 +18,12 @@ names = names_string.split(", ")
 
 print(f"The names are {names_string}")
 
-number_of_people = len(names)
-random_choice = random.randint(0, number_of_people - 1)
-person_who_will_pay = names[random_choice]
+# number_of_people = len(names)
+# random_choice = random.randint(0, number_of_people - 1)
+# person_who_will_pay = names[random_choice]
+# print(f"{person_who_will_pay} will pay for the bill.")
+
+person_who_will_pay = random.choice(names)
 print(f"{person_who_will_pay} will pay for the bill.")
 
 
