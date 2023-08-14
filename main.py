@@ -26,5 +26,13 @@ print(f"The names are {names_string}")
 person_who_will_pay = random.choice(names)
 print(f"{person_who_will_pay} will pay for the bill.")
 
+#Example of nested list
+
+friend_group_1 = ["Davis, Emily, David, Sherea, Braeden, Lauren"]
+friend_group_2 = ["Kevin, Peter, Tony, Andrew"]
+
+friend_group_total = [friend_group_1, friend_group_2]
+
+print(friend_group_total)
 
 
